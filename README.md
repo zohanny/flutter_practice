@@ -4,7 +4,8 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is meant for flutter and github practicing, so once the real preojec repositories are created we are familiarized with GIT.
+
 
 A few resources to get you started if this is your first Flutter project:
 
