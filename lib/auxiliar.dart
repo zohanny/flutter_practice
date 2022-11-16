@@ -1,5 +1,5 @@
 //This file would be a backend method
-//There is no styles here, only returns raw data to be styled in the frontend. (home_file.dart)
+//There is no styles here, only returns raw data to be styled in the frontend. (home_images.dart)
 
 import 'package:flutter/material.dart';
 
