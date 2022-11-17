@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myapp/auxiliar.dart';
 
 
-class Home extends StatelessWidget {
+class Home_Row extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
