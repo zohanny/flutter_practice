@@ -11,7 +11,7 @@ void main() => runApp(MaterialApp(
       child: Text(
         "Hello ninjas",
         style: TextStyle(
-          fontSize: 40,
+          fontSize: 50,
           fontWeight: FontWeight.bold,
           letterSpacing: 2,
           color: Colors.grey[600],
