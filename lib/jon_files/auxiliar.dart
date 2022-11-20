@@ -2,6 +2,7 @@
 //There is no styles here, only returns raw data to be styled in the frontend. (home_images.dart)
 
 import 'package:flutter/material.dart';
+import 'package:myapp/jon_files/auxiliar.dart';
 
 String getTextForApp() {
   String testReturned = "This text is returned from the getTextForApp() method from the auxiliar.dart file";

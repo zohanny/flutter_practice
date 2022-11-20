@@ -14,7 +14,7 @@ class Home_exp extends StatelessWidget {
       body: Row(
         children: [
           Expanded(
-              flex:6,
+              flex:10,
               child: Image.asset('assets/deep.jpg')),
           Expanded(
             flex:2,
@@ -49,6 +49,5 @@ class Home_exp extends StatelessWidget {
       ),
     );
   }
-
   click() {}
 }
