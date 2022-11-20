@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
       ),
       body:Column(
         mainAxisAlignment: MainAxisAlignment.end,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.end,
@@ -25,14 +25,17 @@ class Home extends StatelessWidget {
             ],
           ),
           Container(
-            padding: EdgeInsets.all(20),
-            color: Colors.cyan,
-            child: Text('one'),
-          ),
-          Container(
             padding: EdgeInsets.all(30),
             color: Colors.pinkAccent,
             child: Text('two'),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              padding: EdgeInsets.all(20),
+              color: Colors.cyan,
+              child: Text('one'),
+            ),
           ),
           Container(
             padding: EdgeInsets.all(70),
@@ -40,7 +43,7 @@ class Home extends StatelessWidget {
             child: Text('thress'),
           ),
           Container(
-            padding: EdgeInsets.all(0),
+            padding: const EdgeInsets.all(1),
             color: Colors.grey,
             child: Image(
               image: getAssetImage(1),
@@ -51,9 +54,9 @@ class Home extends StatelessWidget {
       ),
 
       floatingActionButton: FloatingActionButton(
-        child: const Text("Click"),
         onPressed: click(),
         backgroundColor: Colors.red[600],
+        child: Text("Click"),
       ),
     );
   }
